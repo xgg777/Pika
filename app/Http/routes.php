@@ -1,6 +1,6 @@
 <?php
 
-Route::get('/', 'PostController@index');
+Route::get('/', 'PostController@index')->name('web.index');
 Route::post('upload/uploadImg', 'UploadController@upload');
 
 //前台
